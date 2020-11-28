@@ -1,5 +1,6 @@
 .page-header {
     background-color: $main-white-color;
+   
 }
 
 header {
@@ -72,6 +73,7 @@ ul {
 
     transition-duration: $duration;
     transition-timing-function: $cubic;
+    
 
     &:hover,
     &:focus {

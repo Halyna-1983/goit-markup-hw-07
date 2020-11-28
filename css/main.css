@@ -75,8 +75,11 @@ Text-level semantics
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 abbr[title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /**
@@ -270,8 +273,22 @@ summary {
   display: list-item;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  text-decoration: none;
+}
+
 body {
   color: #212121;
+  text-decoration: none;
   font-family: Roboto, sans-serif;
   margin: 0;
 }
@@ -292,7 +309,7 @@ body {
 }
 
 .web {
-  color: var(--color-blue);
+  color: #2196F3;
   letter-spacing: 0.03em;
 }
 
@@ -776,11 +793,7 @@ footer {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: block;
 }
 
 .studio-footer {
@@ -827,13 +840,12 @@ address:hover, address:focus {
 }
 
 .contact-block {
-  padding-right: 15px;
   padding-left: 15px;
   /* margin-top: 0;
     margin-bottom: 0; */
 }
 
-.contact-block-title {
+.join-block-title {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -844,6 +856,10 @@ address:hover, address:focus {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.join-block {
+  padding-left: 70px;
 }
 
 .social {
@@ -893,7 +909,7 @@ address:hover, address:focus {
 }
 
 .subscription {
-  padding-left: 130px;
+  padding-left: 95px;
 }
 
 .subscribe-form-input {

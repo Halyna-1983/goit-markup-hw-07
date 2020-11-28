@@ -7,8 +7,8 @@ footer {
 }
 
 .footer {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+   
 }
 
 .studio-footer {
@@ -69,13 +69,12 @@ address {
 // }
 
 .contact-block {
-    padding-right: 15px;
     padding-left: 15px;
     /* margin-top: 0;
     margin-bottom: 0; */
 }
 
-.contact-block-title {
+.join-block-title {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -83,6 +82,10 @@ address {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.join-block {
+    padding-left: 70px;
 }
 
 .social {
@@ -134,7 +137,7 @@ address {
 // }
 
 .subscription {
-    padding-left: 130px;
+    padding-left: 95px;
 }
 
 .subscribe-form-input {
@@ -148,7 +151,7 @@ address {
 }
 
 .form-field-subscription {
-  position: relative;
+    position: relative;
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
