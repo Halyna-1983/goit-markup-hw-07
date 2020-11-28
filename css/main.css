@@ -1041,6 +1041,10 @@ address:hover, address:focus {
   margin-bottom: 10px;
 }
 
+.form .form-field:nth-child(4n+2) {
+  margin-bottom: 0;
+}
+
 .form-text {
   position: relative;
   font-style: normal;
@@ -1156,6 +1160,7 @@ address:hover, address:focus {
   letter-spacing: 0.06em;
   color: #FFFFFF;
   margin-top: 30px;
+  margin-bottom: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 56px;
